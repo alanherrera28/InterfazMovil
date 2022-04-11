@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Interfaz Móvil</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Notification CSS File -->
+    <link href="assets/css/noti.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <div class="logo">
+                <h1><a href="index.html"><span>Interfaz Móvil</span></a></h1>
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li class="dropdown">
+                        <a href="#"><span><i class="fa-solid fa-user"></i> Ajustes </span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li>
+                                <a href="#">Información del Perfil</a>
+                            </li>
+                            <li class="dropdown"><a href="#"><span>Seguridad</span> <i class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="#">Contraseña</a></li>
+                                    <li><a href="#">Autenticación en 2 Pasos</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <a>
+                    <img src="./assets/img/team/team-9.jpg" width="40" height="40" class="rounded-circle mobile-nav-toggle">
+                </a>
+            </nav>
+            <!-- .navbar -->
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+        <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="1" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="1" fill="#fff">
+      </g>
+    </svg>
+
+    </section>
+    <!-- End Hero -->
+
+
+    <main id="main">
+
+        <!-- ===== Temas ======= -->
+        <section id="temas" class="features">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Temas del Curso</h2>
+                    <p>*************</p>
+                </div>
+
+                <div class="curso-scroll-info" data-aos="fade-left">
+                    <div class="curso-info-div">
+                        <button class="btn" onclick="irTema()">
+                            <img src="./assets/img/temas/numero-uno.png" class="img-fluid" alt="...">
+                        </button>
+                        <p class="text-uppercase" style="text-align: center"><strong>Tema 1</strong></p>
+                    </div>
+                    <div class="curso-info-div">
+                        <button class="btn" onclick="irTema()">
+                            <img src="./assets/img/temas/numero-2.png" class="img-fluid" alt="...">
+                        </button>
+                        <p class="text-uppercase" style="text-align: center"><strong>Tema 2</strong></p>
+                    </div>
+                    <div class="curso-info-div">
+                        <button class="btn" onclick="irTema()">
+                            <img src="./assets/img/temas/numero-3.png" class="img-fluid" alt="...">
+                        </button>
+                        <p class="text-uppercase" style="text-align: center"><strong>Tema 3</strong></p>
+                    </div>
+                    <div class="curso-info-div">
+                        <button class="btn" onclick="irTema()">
+                            <img src="./assets/img/temas/numero-cuatro.png" class="img-fluid" alt="...">
+                        </button>
+                        <p class="text-uppercase" style="text-align: center"><strong>Tema 4</strong></p>
+                    </div>
+                    <div class="curso-info-div">
+                        <button class="btn" onclick="irTema()">
+                            <img src="./assets/img/temas/numero-5.png" class="img-fluid" alt="...">
+                        </button>
+                        <p class="text-uppercase" style="text-align: center"><strong>Tema 5</strong></p>
+                    </div>
+                    <div class="curso-info-div">
+                        <button class="btn" onclick="irTema()">
+                            <img src="./assets/img/temas/seis.png" class="img-fluid" alt="...">
+                        </button>
+                        <p class="text-uppercase" style="text-align: center"><strong>Tema 6</strong></p>
+                    </div>
+                    <div class="curso-info-div">
+                        <button class="btn" onclick="irTema()">
+                            <img src="./assets/img/temas/siete.png" class="img-fluid" alt="...">
+                        </button>
+                        <p class="text-uppercase" style="text-align: center"><strong>Tema 7</strong></p>
+                    </div>
+                    <div class="curso-info-div">
+                        <button class="btn" onclick="irTema()">
+                            <img src="./assets/img/temas/numero-8.png" class="img-fluid" alt="...">
+                        </button>
+                        <p class="text-uppercase" style="text-align: center"><strong>Tema 8</strong></p>
+                    </div>
+                    <div class="curso-info-div">
+                        <button class="btn" onclick="irTema()">
+                            <img src="./assets/img/temas/numero-9.png" class="img-fluid" alt="...">
+                        </button>
+                        <p class="text-uppercase" style="text-align: center"><strong>Tema 9</strong></p>
+                    </div>
+                    <div class="curso-info-div">
+                        <button class="btn" onclick="irTema()">
+                            <img src="./assets/img/temas/asterisco.png" class="img-fluid" alt="...">
+                        </button>
+                        <p class="text-uppercase" style="text-align: center"><strong>Tema 10</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br><br><br>
+        <!-- ===== Temas ======= -->
+
+        <!-- ======= live Section ======= -->
+        <section id="live" class="about">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
+                    </div>
+
+                    <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
+                        <h3>Sesiones en Vivo</h3>
+
+                        <div class="live-scroll-info" data-aos="fade-left">
+                            <div class="live-info-div">
+                                <a>
+                                    <img onclick="irLive()" src="./assets/img/team/team-1.jpg" class="rounded-circle img-live">
+                                </a>
+                                <br>
+                                <a><strong>Erick</strong></a>
+                                <br>
+                                <a><strong>Vazquéz</strong></a>
+                            </div>
+                            <div class="live-info-div">
+                                <a>
+                                    <img onclick="irLive()" src="./assets/img/team/team-2.jpg" class="rounded-circle img-live">
+                                </a>
+                                <br>
+                                <a><strong>Alondra</strong></a>
+                                <br>
+                                <a><strong>Mendoza</strong></a>
+                            </div>
+                            <div class="live-info-div">
+                                <a>
+                                    <img onclick="irLive()" src="./assets/img/team/team-3.jpg" class="rounded-circle img-live">
+                                </a>
+                                <br>
+                                <a><strong>Alan</strong></a>
+                                <br>
+                                <a><strong>Herrera</strong></a>
+                            </div>
+                            <div class="live-info-div">
+                                <a>
+                                    <img onclick="irLive()" src="./assets/img/team/team-4.jpg" class="rounded-circle img-live">
+                                </a>
+                                <br>
+                                <a><strong>Jessica</strong></a>
+                                <br>
+                                <a><strong>Ramirez</strong></a>
+                            </div>
+                            <div class="live-info-div">
+                                <a>
+                                    <img onclick="irLive()" src="./assets/img/team/team-5.jpg" class="rounded-circle img-live">
+                                </a>
+                                <br>
+                                <a><strong>José</strong></a>
+                                <br>
+                                <a><strong>Tovar</strong></a>
+                            </div>
+                            <div class="live-info-div">
+                                <a>
+                                    <img onclick="irLive()" src="./assets/img/team/team-6.jpg" class="rounded-circle img-live">
+                                </a>
+                                <br>
+                                <a><strong>Jun</strong></a>
+                                <br>
+                                <a><strong>Lee</strong></a>
+                            </div>
+                            <div class="live-info-div">
+                                <a>
+                                    <img onclick="irLive()" src="./assets/img/team/team-7.jpg" class="rounded-circle img-live">
+                                </a>
+                                <br>
+                                <a><strong>Patricia</strong></a>
+                                <br>
+                                <a><strong>Sanchez</strong></a>
+                            </div>
+                            <div class="live-info-div">
+                                <a>
+                                    <img onclick="irLive()" src="./assets/img/team/team-8.jpg" class="rounded-circle img-live">
+                                </a>
+                                <br>
+                                <a><strong>Alonso</strong></a>
+                                <br>
+                                <a><strong>Sainz</strong></a>
+                            </div>
+                            <div class="live-info-div">
+                                <a>
+                                    <img onclick="irLive()" src="./assets/img/team/team-9.jpg" class="rounded-circle img-live">
+                                </a>
+                                <br>
+                                <a><strong>Sergio</strong></a>
+                                <br>
+                                <a><strong>Perez</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End About Section -->
+
+        <!-- ======= Menu ======= -->
+        <section id="menu" class="menu fixed-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="icon-box justify-content-center">
+                            <a href="index.html#hero"><button class="btn btn-menu"><i class="fa-solid fa-house"></i></button></a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="icon-box justify-content-center">
+                            <a><button class="btn btn-menu" onclick="certificados()"><i class="fa-solid fa-certificate"></i></button></a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="icon-box justify-content-center">
+                            <a href="index.html#cursos"><button class="btn btn-menu"><i class="fa-solid fa-graduation-cap"></i></button></a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="icon-box justify-content-center">
+                            <button onclick="notiLive()" class="btn btn-noti border-noti mobile-notificacion-live animate__animated animate__wobble">
+                                <i class="fa-regular fa-bell"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br><br><br>
+        <!-- ======= End Menu ======= -->
+
+    </main>
+    <!-- End #main -->
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/cbcddbdf53.js" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        //Alertas
+        function irTema() {
+            Swal.fire({
+                title: 'Este tema no esta disponible. Lamentamos las molestias',
+                width: 600,
+                padding: '3em',
+                color: '#1acc8d',
+                background: '#010351'
+            });
+        };
+
+        function irLive() {
+            Swal.fire({
+                title: 'Usted ha accedido a una sesion en vivo (Aqui apareceria la sesion en vivo o desplegaria una nueva pestaña.)',
+                width: 600,
+                padding: '3em',
+                color: '#1acc8d',
+                background: '#010351'
+            });
+        };
+
+        function certificados() {
+            Swal.fire({
+                title: 'Contamos con Certificaciones Oficiales para cada Curso.',
+                width: 600,
+                padding: '3em',
+                color: '#1acc8d',
+                background: '#010351'
+            });
+        };
+    </script>
+
+    <!-- Notification -->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script>
+        function notiLive() {
+            toastr.options = {
+                "closeButton": true,
+                "debug": true,
+                "newestOnTop": false,
+                "progressBar": true,
+                "positionClass": "toast-top-right",
+                "preventDuplicates": true,
+                "onclick": null,
+                "showDuration": "300",
+                "hideDuration": "1000",
+                "timeOut": "5000",
+                "extendedTimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hideMethod": "fadeOut"
+            }
+
+            toastr["info"]("Parece que existen sesiones en vivo a las que te puedes unir.", "Sesiones en Vivo");
+
+
+        }
+
+        window.onload = notiLive();
+    </script>
+
+
+
+</body>
+
+</html>
